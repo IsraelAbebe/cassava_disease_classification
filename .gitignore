@@ -132,10 +132,13 @@ dmypy.json
 .pyre/
 
 data/
+data2/
 
 models/
+MNIST/
 
 *.ckpt
+*.zip
 
 mnist_train.csv
 
