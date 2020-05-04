@@ -139,7 +139,7 @@ MNIST/
 
 *.ckpt
 *.zip
-
+*.pth
 mnist_train.csv
 
 mnist_test.csv
