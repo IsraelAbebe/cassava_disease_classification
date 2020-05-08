@@ -140,6 +140,13 @@ MNIST/
 *.ckpt
 *.zip
 *.pth
+*.tar
+
 mnist_train.csv
 
 mnist_test.csv
+
+salomon_exp/linear/
+salomon_exp/linear_2/
+salomon_exp/results/
+
