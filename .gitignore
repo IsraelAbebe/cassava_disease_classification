@@ -145,9 +145,13 @@ MNIST/
 mnist_train.csv
 
 mnist_test.csv
+<<<<<<< HEAD
+salomon_exp/SimCLR-1/logs/
+=======
 
 salomon_exp/SimCLR/~
 
+>>>>>>> 99037a2ff81a13ec8f072bdd5f4a17a590b8b721
 salomon_exp/linear/
 salomon_exp/linear_2/
 salomon_exp/results/

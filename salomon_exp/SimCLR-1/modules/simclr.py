@@ -23,11 +23,11 @@ class SimCLR(nn.Module):
 
         self.encoder = self.get_resnet(args.resnet)
 
-#         self.n_features = self.encoder.fc.in_features  # get dimensions of fc layer       
-#         self.encoder.fc = Identity()  # remove fully-connected layer after pooling layer
+        self.n_features = self.encoder.fc.in_features  # get dimensions of fc layer       
+        self.encoder.fc = Identity()  # remove fully-connected layer after pooling layer
         
-        self.n_features = self.encoder.last_linear.in_features  # get dimensions of fc layer 131072
-        self.encoder.last_linear = Identity()  # remove fully-connected layer after pooling layer
+#         self.n_features = self.encoder.last_linear.in_features  # get dimensions of fc layer 131072
+#         self.encoder.last_linear = Identity()  # remove fully-connected layer after pooling layer
 
 
         # We use a MLP with one hidden layer to obtain z_i = g(h_i) = W(2)σ(W(1)h_i) where σ is a ReLU non-linearity.
