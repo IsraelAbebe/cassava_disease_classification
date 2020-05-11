@@ -3,6 +3,9 @@
 Classify pictures of cassava leaves into 1 of 4 disease categories (or healthy)
 ![alt text](images/cassava.png)
 
+## Results are discussed in [this publication](https://drive.google.com/file/d/12PlHbi63GzxOCFKtexuY2-BuHXOZD2d5/view?usp=sharing)
+
+
 
 ### Dataset Paper:
 ```
