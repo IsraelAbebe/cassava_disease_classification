@@ -32,3 +32,5 @@ the Fine-Grained Visual Categorization workshop at CVPR
 - Fine-tuning  pre-trained  models: [notebook](https://github.com/IsraelAbebe/cassava_disease_classification/blob/master/Finetuning.ipynb)
 - Hyperparameter search on Fine-tuning  pre-trained  models: [notebook](https://github.com/IsraelAbebe/cassava_disease_classification/blob/master/Hyperparameter_search_pytorch.ipynb)
 - Model Ensemble: [notebook](https://github.com/IsraelAbebe/cassava_disease_classification/blob/master/Ensamble.ipynb)
+- SimCLR Unsupervised
+- Data Distrbution Measures
